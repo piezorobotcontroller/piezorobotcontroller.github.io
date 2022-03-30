@@ -255,9 +255,10 @@ div.code {
     font-family: monospace;
     padding: 20px;
     overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-y: scroll;
     white-space:nowrap;
     width: 405px;
+	height: 237px;
     margin-bottom: 30px;
 }
 

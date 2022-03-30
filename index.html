@@ -18,8 +18,6 @@
     </head>
     <body id="body">
         <div id="main"> 
-            <header id="header">
-            </header>
             <!-- style="padding-bottom:1em" -->
             <div id="profile">
                 <!-- <img src="images/profile.jpg"> -->
@@ -33,73 +31,79 @@
                 <div style="clear: both;"></div>
             </div>
             <div class="section recent-work">
-                <!-- <h1>Highlights</h1> -->
                 <div class="highlight-proj">
-                    <!-- <a href="http://arc.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/sim-pushing-piles.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Pushing piles with closed-loop feedback</p>
+					<center>
+						<img height=220px
+							source src="images/inchworm-overview.png">
+					</center>
+                    <p>Inchworm soft robot motion mechanism</p>
                 </div>
-                <div class="highlight-proj">
-                    <!-- <a href="http://tossingbot.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/real-assemble-kit.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Production pick-and-place w/o 3D models</p>
+				<div class="highlight-proj">
+					<center>
+						<img height=220px
+							source src="images/crawling-schematics.png">
+					</center>
+                    <p>Crawling under overhead constraints</p>
                 </div>
-                <div class="highlight-proj">
-                    <!-- <a href="http://tossingbot.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/sim-hanoi.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Multi-step sequential tasks</p>
+				<div class="highlight-proj">
+					<center>
+						<img height=220px
+							source src="images/3d-test-setup.png">
+					</center>
+                    <p>Experimental setup</p>
                 </div>
+                
             </div>
-            <!-- <div class="divider"></div> -->
             <div class="section recent-work">
-                <!-- <div class="highlight-proj">
-                    <video playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/real-data-collection.mp4" type="video/mp4">
-                    </video><p>Data collection UI</p>
-                </div> -->
                 <div class="highlight-proj">
-                    <video playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/sim-unseen-kit.mp4" type="video/mp4">
-                    </video><p>Pick-and-place with unseen objects</p>
+					<center>
+						<img height=180px
+							source src="images/crawling-demonstration-poster.png">
+					</center>
+                    <p>Experimental demo of crawling under a step-shaped roof</p>
                 </div>
                 <div class="highlight-proj">
-                    <!-- <a href="https://graspinwild.cs.columbia.edu/"> --><video playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/sweeping.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Learning to push piles on real robots</p>
+					<center>
+						<img height=180px
+							source src="images/crawling-simulation-linear.png">
+					</center>
+                    <p>Simulation demo for a slanted roof</p>
                 </div>
-                <div class="highlight-proj">
-                    <!-- <a href="http://arc.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/real-stack-plates.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Pick-conditioned placing from 10 examples</p>
+				<div class="highlight-proj">
+					<center>
+						<img height=180px
+							source src="images/crawling-simulation-sinusoidal.png">
+					</center>
+                    <p>Simulation demo for a sinusoidal roof</p>
                 </div>
             </div>      
             <div class="divider"></div>  
             <div class="section paper">
                 <h1>Paper</h1>
-                <p>Latest version (Mar 28, 2022): <a href="https://arxiv.org/abs/2010.14406">arXiv:2010.14406 [cs.RO]</a>.<br>
-                  Published at the 2022 IEEE 5th International Conference on Soft Robotics (RoboSoft)<br>
-                <a href="https://arxiv.org/pdf/2010.14406.pdf"><img src="images/thumbnail-half.jpg"></a>
+                <p>Latest version (Mar 29, 2022): <a href="https://arxiv.org/abs/2203.15198">arXiv:2203.15198 [cs.RO]</a>.<br>
+                  To appear at the 2022 IEEE 5th International Conference on Soft Robotics (RoboSoft)<br>
+                <a href="https://arxiv.org/pdf/2203.15198.pdf"><img src="images/thumbnail-half.png"></a>
             </div>
             <div class="divider"></div>
-            <div class="section paper half">
-                <h1>Code</h1>
-                <p>
-                    Code is available on <a href="https://github.com/google-research/ravens">Github</a>. Includes:<br>
-                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Simulation environments (Ravens with PyBullet).<br>
-                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Training/testing code (with TensorFlow/Python).<br>
-                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Pre-trained models and datasets.<br><br>
-                    Simple toy examples with JAX and Flax in <a href="https://colab.research.google.com/drive/13VTA8nLM8AuzXuygQA1X_KWzLLxVPJhM?usp=sharing">Colab</a>.<br>
-                </p>
-
+			<div class="section paper half">
+                <h1>Poster</h1>
+				<a href="images/poster.jpg">
+					<img src="images/poster.jpg" style="width:405px;height:auto;">
+				</a>
             </div>
             <div class="section bibtex half">
                 <h1>Bibtex</h1>
-                <div class="code">@article{zeng2020transporter,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;title={Transporter Networks: Rearranging the Visual World for Robotic Manipulation},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;author={Zeng, Andy and Florence, Pete and Tompson, Jonathan and Welker, Stefan and Chien, Jonathan and Attarian, Maria and Armstrong, Travis and Krasin, Ivan and Duong, Dan and Sindhwani, Vikas and Lee, Johnny},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;journal={Conference on Robot Learning (CoRL)},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;year={2020}<br>
-}</div>
+                <div class="code">@misc{https://doi.org/10.48550/arxiv.2203.15198,<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;doi = {10.48550/ARXIV.2203.15198},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;url ={https://arxiv.org/abs/2203.15198},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;author = {Zheng, Zhiwu and Kumar, Prakhar and Chen, Yenan and Cheng, Hsin and Wagner, Sigurd and Chen, Minjie and Verma, Naveen and Sturm, James C.},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;keywords = {Robotics (cs.RO), Systems and Control (eess.SY), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;title = {Model-Based Control of Planar Piezoelectric Inchworm Soft Robot for Crawling in Constrained Environments},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;publisher = {arXiv},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;year = {2022},<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;copyright = {arXiv.org perpetual, non-exclusive license}<br>
+				}
+				</div>
             </div>    
             <div class="divider"></div>
             <div class="section team">
@@ -109,21 +113,17 @@
                     </a>
                 </div>
                 <div class="people-profile">
-                    <a><img src="images/people/prakhar.jpg"><p>Prakhar Kumar</p>
-                    </a>
+                    <img src="images/people/prakhar.jpg"><p>Prakhar Kumar</p>
                 </div>
                 <div class="people-profile">
-                    <a><img src="images/people/yenan.jpeg"><p>Yenan Chen</p>
-                    </a>
+                    <img src="images/people/yenan.jpeg"><p>Yenan Chen</p>
                 </div>
                 <div class="people-profile">
-                    <a><img src="images/people/hsin.jpg"><p>Hsin Cheng</p>
-                    </a>
+                    <img src="images/people/hsin.jpg"><p>Hsin Cheng</p>
                 </div>
                
                 <div class="people-profile">
-                    <a><img src="images/people/sigurd.png"><p>Sigurd Wagner</p>
-                    </a>
+                    <img src="images/people/sigurd.png"><p>Sigurd Wagner</p>
                 </div>
                 <div class="people-profile">
                     <a href="https://www.princeton.edu/~minjie/"><img src="images/people/minjie.jpeg"><p>Minjie Chen</p>
@@ -142,20 +142,10 @@
             </div>
 			<img style="height: 80px; margin-left: 30px; margin-bottom: 10px" src="images/PU-standard.png">
             <div style="clear: both;"></div>
-            <div class="divider"></div>  
-            <div class="section video">
-                <h1>Plenary Talk</h1>
-                <p>Watch it on YouTube (<a href="https://youtu.be/8afHfReCfPo?t=12214">link</a>)<br><a href="https://youtu.be/8afHfReCfPo?t=12214"><img src="images/talk-thumbnail.png" width="640px" style="border: 2px solid #191e3f; margin-top: 10px"></a></p>
-            </div>
+            <div class="divider"></div>
             <div class="section video">
                 <h1>Supplemental Video</h1>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/496UVuAdOP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="section video">
-                <h1>Method</h1>
-                <video style="margin-left: 30px; width: 480px; margin-bottom: 30px" playsinline="" muted="" autoplay="" loop="">
-                    <source src="images/animation.mp4" type="video/mp4">
-                </video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Md-Uo-pUaIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="divider"></div>
             
@@ -163,6 +153,8 @@
                 <h1>Acknowledgements</h1>
                 <p>This work was supported by the Semiconductor Research Corporation (SRC), DARPA, Princeton Program in Plasma Science and Technology, and Princeton University.</p>
                 <br><br>
+			<img style="height: 80px; margin-left: 30px; margin-bottom: 10px" src="images/src-logo.png">
+			<img style="height: 80px; margin-left: 30px; margin-bottom: 10px" src="images/pppl-logo-black.png">
             </div>
             <br><br><br><br><br><br><br><br><br><br>
             <div class="divider"></div>
