@@ -74,7 +74,7 @@ table {
 #main {
     width: 960px;
     margin: 0px auto;
-    color: #a0a8b0;
+    color: #000000;
 }
 
 p {
@@ -147,6 +147,7 @@ h1 {
 #profile-desc {
     width: 100%;
     float: left;
+	text-align: justify;
 }
 
 /**************************************************/
